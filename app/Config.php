@@ -6,12 +6,8 @@
 
         private $settings = [];
 
-        // attribut statique qui conservera l'instance unique de notre classe
         private static $_instance;
 
-        /**
-        * La méthode statique qui permet d'instancier ou de récupérer l'instance unique
-        **/
         public static function getInstance(){
             if(is_null(self::$_instance)){
                 self::$_instance = new Config();

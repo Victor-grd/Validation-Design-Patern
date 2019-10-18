@@ -19,8 +19,4 @@ class CategoriesTable extends Table{
     public function deleteCat($id){
         return $this->db->prepare('DELETE FROM `categories` WHERE `id` = ?', [$id], true, false);
     }
-
-    // public function update(){
-    //     return $this->db->prepare('', [], true, false);
-    // }
 }

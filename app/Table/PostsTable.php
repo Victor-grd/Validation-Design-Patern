@@ -40,7 +40,5 @@ class PostsTable extends Table{
 
     public function editPost($title, $content, $date, $categorie, $id, $navbar){
         return $this->db->prepare('UPDATE `articles` SET title = ?, content = ?,date = ?, categorie_id = ?, navbar = ? WHERE `id` = ?', [$title, $content, $date, $categorie, $navbar, $id], true, false);
-
-        // return $this->db->prepare('', [], true, false);
     }
 }

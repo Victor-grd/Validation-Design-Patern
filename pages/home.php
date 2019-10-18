@@ -1,5 +1,5 @@
-<?php $posts = $app->getTable('Posts'); //var_dump($posts->all())?>
-<?php $categories = $app->getTable('Categories'); //var_dump($posts->all())?>
+<?php $posts = $app->getTable('Posts'); ?>
+<?php $categories = $app->getTable('Categories'); ?>
 <section class="page page__home color-change-4x">
     <section class="section section__articles">
         <form class="form form__articles" action="index.php?page=addPostAction" method="post">

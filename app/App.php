@@ -20,7 +20,6 @@ class App {
         return new $class_name($this->getDb());
     }
 
-    //  factory qui va generter des classs dinamyquement 
     public function getDb(){
         $config = Config::getInstance();
         if(is_null($this->db_instance)){

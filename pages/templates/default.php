@@ -1,4 +1,4 @@
-<?php $posts = $app->getTable('Posts'); //var_dump($posts->all())?>
+<?php $posts = $app->getTable('Posts'); ?>
 
 <!DOCTYPE html>
 <html lang="fr">

@@ -22,7 +22,6 @@ class Database{
     private function getPDO(){
         if ($this->pdo === null) {
             $pdo = new PDO('mysql:dbname=blog;host=localhost', 'victor', 'password01100');
-            // Affiche les erreur PDO
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->pdo = $pdo;
         }
@@ -50,7 +49,6 @@ class Database{
     public function prepare($statement, $attributes, $one = true, $fetch = true ){
         $req = $this->getPDO()->prepare($statement);
         $req->execute($attributes);
-        // var_dump($req);die;
         if ($fetch === true) {
             $req->setFetchMode(PDO::FETCH_OBJ);
             if ($one) {

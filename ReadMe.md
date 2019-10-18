@@ -38,3 +38,11 @@ Attention : Une partie "devOps" vous sera utile. Vous devrez également créer d
 travail en récupérant "automatiquement" le contenu de votre projet à jour (Git ?). Pour ce faire, vous pourrez choisir de travailler avec Vagrant, ou toute autre technologies que vous
 jugez intéressantes ou importantes d'utiliser (par exemple, apprendre à utiliser Docker pour les plus braves).
 ```
+
+## Valider
+1. route
+1. MVC
+1. D.R.Y
+1. SQL
+1. Securite
+1. Singleton
