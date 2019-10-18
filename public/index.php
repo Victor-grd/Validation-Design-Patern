@@ -45,6 +45,8 @@ if($p === 'home') {
 } elseif ($p === 'deleteCatAction') {
     $id = $_POST['id'];
     $categories->deleteCat($id);
+} else {
+    require '../pages/404.php';    
 }
 
 $content = ob_get_clean();
