@@ -1,0 +1,34 @@
+/* .color-change-4x {
+	-webkit-animation: color-change-4x 12s linear infinite alternate both;
+	        animation: color-change-4x 12s linear infinite alternate both;
+} */
+
+ @-webkit-keyframes color-change-4x {
+    0% {
+      background: #679fca81;
+    }
+    33.3333% {
+      background: #5795c583;
+    }
+    66.666% {
+      background: #3b79a97e;
+    }
+    100% {
+      background: #1d476973;
+    }
+  }
+  @keyframes color-change-4x {
+    0% {
+      background: #679fca88;
+    }
+    33.3333% {
+      background: #5795c57c;
+    }
+    66.666% {
+      background: #3b79a97a;
+    }
+    100% {
+      background: #1d47697a;
+    }
+  }
+  

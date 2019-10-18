@@ -1,0 +1,35 @@
+.page__editPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_update{
+    background: transparent;
+    border: none;
+    box-shadow: -3px 3px 2px #d3d3d34f;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+}
+
+textarea.input_update {
+    height: 450px;
+}
+
+.form_update{
+    width: 50%;
+}
+
+.card_update {
+    margin-top: 25px;
+    min-width: 100%;
+}
+h4.card-title-update {
+    width: 40%;
+}
+
+select.input_update {
+    width: 20%;
+}
+

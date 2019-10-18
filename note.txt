@@ -1,0 +1,48 @@
+////////////////////// DESIGN PATTERN ///////////////////////////
+
+en lien avec un autre module concernant les frameworks PHP
+
+libre choix de création. Seulement, utiliser notions dont vous n'êtes pas forcément accoutumés.
+
+création d'une application web en créant un "micro-framework"
+responsive jusqu'à 500px maximum
+utiliser un ou deux design patterns dans votre projet, mais pas n'importe lesquels.
+Vous allez devoir penser votre application et tenter de repérer des problèmes pour choisir justement le/les bon/s D.P pour apporter une solution.
+
+Par exemple, et chose conseillée, vous pourrez apprendre à utiliser le D.P Singleton, qui permet de n'instancier une classe qu'une seule fois.
+
+implémenter des fonctionnalités, comme :
+- Des routes, en intégrant un système de routing
+- Des vues
+- Des controllers
+- D'autres éléments que vous jugerez pertinents.
+
+Étant donné que vous travaillerez avec une base de données, une partie sécurité sera très importante.
+En effet, vous devrez faire le nécessaire pour protéger vos données, que ce soit
+par le biais d'un formulaire ou lors de requêtes SQL. Soyez D.R.Y et le plus efficace possible.
+
+dans un README.md, expliquer vos choix. Pourquoi est-ce que vous avez choisi ces design pattern, pour quelle problématique exactement, sur
+quoi porte votre application web, etc.
+
+Une attention (comme à mon habitude) sera portée sur la structure de votre code, votre logique, sa propreté ainsi que ses bonnes practices,
+les design patters que vous aurez choisi et les raisons qui vous ont poussés à les utiliser.
+
+Attention : Une partie "devOps" vous sera utile. Vous devrez également créer des scripts interactifs pour vos collègues,
+vous permettant de déployer rapidement votre environnement de travail en récupérant "automatiquement" le contenu de votre projet à jour (Git ?).
+Pour ce faire, vous pourrez choisir de travailler avec Vagrant, ou toute autre technologies que vous
+jugez intéressantes ou importantes d'utiliser (par exemple, apprendre à utiliser Docker pour les plus braves).
+
+Faire une chose une fois peut ne pas être suffisant
+Le faire deux fois peut vous rapprocher de votre but, mais
+Le faire trois fois vous ouvrira la voie. Jamais deux sans trois, comme on dit. vv
+
+VTFOQ00xbFlUV2RaYlRsNVltbENjR0pwUW1oSlNGSjJaREkwWjJReWFHeGpiVlZuWTIxR2NHSnBRbWhpYlZGblpFZFdhRWxIYkhwSlIxWXlXbGhLTldReWFHeGpiVlYxUTJ0cloyRkhSbXRKUjBWblpHMVdlV1ZUUW10aFYxcHRZVmRPTVdKSVVXZGlSMnh0V2xOM1oxbHRWbXBaV0ZaNldsTkNkR1ZUUW10WlYxRm5aREpHZWtsSGFIWmpia3B3V1cxNGJFbElaSEJrUjJkbllsaHJaMkpZVm5STVozQktTVWhrYUdONVFtaEpTRUpzWTI1T2RtSnBRak5oUnpoblkyMVdNbUl5ZURGa1IyeDJZbTFzTmxwWFVXZGtSMmhzU1Voa2RtTnRlR3RKUnpsdFNVZE9kbUpZUWpGa1IyeDFXbmxDYVdWVFFtcGpjMDl3V1ZoU2NHSnRZMmRqTWpsMFdsaFNiMkZYTlc1SlJ6VnNaSGswUzFSdE9UTlpWMUpvWlZoTmMwbEhWakphV0VvMVdXMDVhMlZUUW5KaWJUa3pZM2xDZEZwVGQyZFpWelZyU1VkV01scFlTalZaYlRsclpWTkNjR0pwUWpCaFIxVm5Xa2RXTWxwWGVIWmpSekZzWW01UloyUXlPWGxpUjFGblpGaE9iR041UWpOaFIwWXdTVVZyWjFrelNteFpXRkpzV2tNMFBRPT0=
+
+
+
+
+architecture
+class static pas de constructeur
+*problematique d'heritage et de construction 
+
+uniqid() -> function qui genere une clef unique
